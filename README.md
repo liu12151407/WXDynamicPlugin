@@ -2,6 +2,8 @@
 
 ## 介绍
 
+#### 最新接入研究配置参考文章介绍  [Compose的全动态插件化框架支持了，已更新到AGP 8.6,Kotlin2.0.20,支持Compose](https://juejin.cn/post/7435587382345482303)
+
 #### **WXDynamicPlugin是由本人自住研发的Android插件框架**
 
 ### 零反射，零HooK,全动态化，插件化框架，全网唯一结合启动优化的插件化架构
@@ -164,6 +166,8 @@ java {
 ### WX-Resource: 为项目已经打包好的插件，so,皮肤包文件等 存放的文件夹
 
 #### 上面介绍 直接 run运行 ,打开app 进入宿主，直接下载的插件 为我已经放在准好的服务器上面了
+
+#### maven接入方式 请不要设置代理抓包！！！
 
 &emsp;&emsp;可以通过源码工程自行打包，上传到自己的服务器上部署，方法如下:  
 &emsp;&emsp;找到 WX/WX-Maven/WX-Host/sample/ com.wgllss.dynamic.host.FaceImpl
